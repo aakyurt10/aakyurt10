@@ -1,10 +1,8 @@
-![Windows Server](https://img.shields.io/badge/Windowsle=for-the-badge&logo=windows
-![Active Directory](https://img.shields.io/badge/Active_Directory-005FBe
-![Hyper-V](https://img.shields.io/badge/Hyper--yle=for-the-badge
-![Cisco](https://img.shields.io/badge/Cisco-1le=for-the-badge&logo=cisco
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-thego=microsoftazure
-
 # Hallo, ich bin Ali Ihsan Akyurt 👋
+
+### Umschüler zum Fachinformatiker für Systemintegration
+
+🖥️ Windows Server | 🌐 Netzwerke | ☁️ Azure | 🏢 Active Directory | 🔧 IT-Support
 
 ## Über mich
 
@@ -65,7 +63,7 @@ Aufbau einer vollständigen Testumgebung mit:
 - Benutzer- und Gruppenverwaltung
 
 ➡️ Repository:
-[windows-server-ad-lab](https://github.com/rver-ad-lab
+[windows-server-AD-Lab](https://github.com/rver-ad-lab
 
 ---
 
@@ -81,7 +79,7 @@ Praktische Netzwerkübungen mit:
 - Netzwerktopologien
 
 ➡️ Repository:
-[cisco//github.com/DEIN_USERNAME/cisco-network-labs
+[Cisco-Netzwerk-Lab]()
 
 ---
 
