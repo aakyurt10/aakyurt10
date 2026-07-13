@@ -81,29 +81,6 @@ Praktische Netzwerkübungen mit:
 ➡️ Repository:
 [Cisco-Netzwerk-Lab](https://github.com/aakyurt10/Cisco-Netzwerk-Simulationen.git)
 
----
-
-### Hyper-V Homelab
-
-Virtuelle Testumgebung für:
-
-- Windows Server
-- Client-Systeme
-- Netzwerkdienste
-- Active Directory
-
-➡️ Repository:
-[hyper-v-homelab](https://github.com/DEIN_USERNAME/hyper-v Azure Fundamentals Labs
-
-Praktische Übungen zu:
-
-- Resource Groups
-- Virtual Machines
-- Storage Accounts
-- Azure Netzwerk-Grundlagen
-
-➡️ Repository:
-[azure-/github.com/DEIN_USERNAME/azure-fundamentals-labs
 
 ---
 
