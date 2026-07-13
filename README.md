@@ -1,16 +1,15 @@
-## Hi there 👋
+# Hallo, ich bin Ali Ihsan Akyurt 👋
 
-<!--
-**aakyurt10/aakyurt10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Möchtegern-Fachinformatiker für Systemintegration mit Fokus auf Netzwerktechnik, Systemadministration und Cloud-Infrastrukturen.
 
-Here are some ideas to get you started:
+## 🛠️ Tech Stack & Kenntnisse
+- **Betriebssysteme:** Windows Server, Linux (Ubuntu/Debian), Hyper-V
+- **Netzwerke:** TCP/IP, Routing & Switching, DNS, Cisco Packet Tracer
+- **Administration:** Active Directory, Azure Cloud Fundamentals
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📁 Aktuelle Projekte
+- [Cisco Network Simulationen](BURAYA_CISCO_REPO_LINKINI_YAPIŞTIR) - Meine Netzwerk-Topologien und Routing-Simulationen.
+- [Windows Server AD Projekt](BURAYA_AD_REPO_LINKINI_YAPIŞTIR) - Domänen-Aufbau, GPOs und Benutzerverwaltung in einer Hyper-V Testumgebung.
+
+📬 **Kontakt:** [LinkedIn Profile](www.linkedin.com/in/aliihsanakyurt)
+
