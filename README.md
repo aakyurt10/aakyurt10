@@ -63,7 +63,7 @@ Aufbau einer vollständigen Testumgebung mit:
 - Benutzer- und Gruppenverwaltung
 
 ➡️ Repository:
-[windows-server-AD-Lab](https://github.com/rver-ad-lab
+[windows-server-AD-Lab](https://github.com/aakyurt10/Windows-Server-AD-Projekt.git)
 
 ---
 
@@ -79,7 +79,7 @@ Praktische Netzwerkübungen mit:
 - Netzwerktopologien
 
 ➡️ Repository:
-[Cisco-Netzwerk-Lab]()
+[Cisco-Netzwerk-Lab](https://github.com/aakyurt10/Cisco-Netzwerk-Simulationen.git)
 
 ---
 
