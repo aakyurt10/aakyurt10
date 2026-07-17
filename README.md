@@ -1,131 +1,63 @@
-# Hallo, ich bin Ali Ihsan Akyurt 👋
+# Windows Server AD Projekt (Home Lab)
 
-### Umschüler zum Fachinformatiker für Systemintegration
+## Projektübersicht
+Dieses Repository dokumentiert mein praktisches Home-Lab-Projekt im Rahmen meiner Umschulung zum Fachinformatiker für Systemintegration (FISI).  
+Ich baue eine kleine, realistische Windows-Server-Umgebung auf und dokumentiere alle Schritte verständlich und praxisnah.
 
-🖥️ Windows Server | 🌐 Netzwerke | ☁️ Azure | 🏢 Active Directory | 🔧 IT-Support
-
-## Über mich
-
-Ich bin Umschüler zum Fachinformatiker für Systemintegration (FISI) in Deutschland und interessiere mich besonders für:
-
-- Netzwerktechnik
-- Systemadministration
-- Windows Server
-- Active Directory
-- Virtualisierung
-- IT-Support
-- Cloud-Technologien (Microsoft Azure)
-
-Derzeit erweitere ich meine praktischen Kenntnisse durch Homelab-Projekte und Dokumentationen, um mich optimal auf mein FISI-Praktikum und den späteren Berufseinstieg vorzubereiten.
-
----
-
-## Technologien & Kenntnisse
-
-### Betriebssysteme
-- Windows
-- Windows Server
-- Linux (Ubuntu / Debian)
-
-### Netzwerktechnik
-- TCP/IP
-- DNS
-- DHCP
-- VLAN
-- Routing & Switching
-- Cisco Packet Tracer
-
-### Systemadministration
-- Active Directory
-- Gruppenrichtlinien (GPO)
-- Benutzerverwaltung
-- IT-Support
-- Dokumentation
-
-### Virtualisierung
+## Verwendete Technologien
 - Hyper-V
-
-### Cloud
-- Microsoft Azure Fundamentals
-
----
-
-## Aktuelle Projekte
-
-### Windows Server Active Directory Lab
-Aufbau einer vollständigen Testumgebung mit:
-
-- Domain Controller
-- Active Directory
+- Windows Server 2022
+- Active Directory Domain Services (AD DS)
 - DNS
 - DHCP
-- Gruppenrichtlinien
-- Benutzer- und Gruppenverwaltung
+- Group Policy (GPO)
+- Windows 10/11 Clients
+- PowerShell und klassische Admin-Tools
 
-➡️ Repository:
-[windows-server-AD-Lab](https://github.com/aakyurt10/Windows-Server-AD-Projekt.git)
+## Lab-Architektur
+Kleines Home-Lab ohne fiktive Enterprise-Komplexität:
+- 1x Hyper-V Host
+- 1x Windows Server 2022 (Domain Controller)
+- AD DS, DNS und DHCP auf dem Server
+- 2x Windows Clients für Domänenbeitritt und Tests
 
----
+## Lernziele
+- Sichere Grundkonfiguration eines Domain Controllers
+- Strukturierte Benutzer- und Gruppenverwaltung
+- DNS- und DHCP-Basisbetrieb in einer AD-Umgebung
+- Einsatz und Test von Gruppenrichtlinien
+- Systematisches Troubleshooting bei typischen Fehlern
+- Professionelle technische Dokumentation
 
-### Cisco Network Labs
+## Gezeigte Skills
+- Installation und Konfiguration von Serverrollen
+- Planung einer OU-Struktur
+- Erstellung von Benutzern, Gruppen und Richtlinien
+- Domänenbeitritt von Clients
+- Analyse mit Standardbefehlen (z. B. dcdiag, nslookup, gpresult)
+- Fehleranalyse mit klaren Testschritten
 
-Praktische Netzwerkübungen mit:
+## Repository-Struktur
+- `01_Projektbeschreibung/` Projektziele, Lab-Übersicht, Architektur
+- `02_HyperV/` Hyper-V Installation, VM-Erstellung, virtuelle Switches
+- `03_ActiveDirectory/` AD-Installation, OU-Struktur, Benutzer/Gruppen, Domänenbeitritt
+- `04_DNS/` DNS Grundlagen, Konfiguration, Fehlersuche
+- `05_DHCP/` DHCP Konfiguration, Scope-Planung, Fehlersuche
+- `06_GPO/` Passwort- und Desktop-Richtlinien, GPO-Tests
+- `07_Troubleshooting/` typische Probleme bei Domain Join, DNS und Netzwerk
+- `08_Command_Reference/` wichtige Admin-Befehle mit Beispielen
+- `09_Lernnotizen/` Erkenntnisse und Lessons Learned
 
-- VLANs
-- Routing
-- Switching
-- DHCP
-- OSPF
-- Netzwerktopologien
+## Screenshots
+Geplant/ergänzt in den jeweiligen Fachdokumenten:
+- Hyper-V VM-Übersicht
+- AD-Benutzer und OU-Struktur
+- DNS- und DHCP-Konfiguration
+- GPO-Ergebnisse auf Client
+- Beispiel-Fehlerbilder bei Troubleshooting
 
-➡️ Repository:
-[Cisco-Netzwerk-Lab](https://github.com/aakyurt10/Cisco-Netzwerk-Simulationen.git)
-
-
----
-
-## Zertifikate & Weiterbildung
-
-- Google IT Support Professional Certificate
-- Microsoft Azure Fundamentals (AZ-900 Kenntnisse)
-- CCNA-basierte Netzwerkgrundlagen
-- Active Directory Grundlagen
-- Windows Administration Grundlagen
-- IT Helpdesk Grundlagen
-
----
-
-## Aktuelle Lernschwerpunkte
-
-- Windows Server 2022
-- Active Directory
-- Gruppenrichtlinien (GPO)
-- Netzwerksicherheit
-- Cisco Networking
-- Azure Cloud
-- PowerShell Grundlagen
-
----
-
-## Mein Ziel
-
-Ich suche die Möglichkeit, mein Wissen in einem professionellen Umfeld weiter auszubauen und praktische Erfahrungen in den Bereichen
-
-- IT-Support
-- Systemadministration
-- Netzwerktechnik
-
-zu sammeln.
-
----
-
-## Kontakt
-
-📧 aliihsanakyurt@gmx.de
-
-🔗 LinkedIn:
-https://linkedin.com/in/aliihsanakyurt
-
----
-
-*"Learning by building."*
+## Zukünftige Verbesserungen
+- Zusätzlicher Member Server für Rollen-Trennung
+- Grundlegende Backup-Strategie (System State)
+- WSUS-/Patch-Management-Dokumentation
+- Erweiterte GPO-Szenarien (z. B. Laufwerkszuordnung)
